@@ -21,7 +21,11 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8,
+						9,
+						10
 					]
 				}
 			],
@@ -42,7 +46,11 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8,
+						9,
+						10
 					]
 				}
 			],
@@ -95,6 +103,34 @@
 					"id" : "lab02_3::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-lab02_3-Debug-8d577809c99129001fda.json",
 					"name" : "lab02_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab03_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab03_1-Debug-b751f8bc432a67eff9b2.json",
+					"name" : "lab03_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab03_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab03_2-Debug-7db8a73f23b130dc3531.json",
+					"name" : "lab03_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab03_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab03_3-Debug-382af7517d89669beb75.json",
+					"name" : "lab03_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab03_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab03_4-Debug-ac450ac1945a88bc1fe8.json",
+					"name" : "lab03_4",
 					"projectIndex" : 0
 				}
 			]
