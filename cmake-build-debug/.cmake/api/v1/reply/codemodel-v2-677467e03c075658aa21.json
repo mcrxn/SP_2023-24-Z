@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SP_2023_24_Z",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SP_2023_24_Z::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SP_2023_24_Z-Debug-a6d4278b59000b21bd28.json",
+					"name" : "SP_2023_24_Z",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab01_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab01_1-Debug-479860f9a8df9310a078.json",
+					"name" : "lab01_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab01_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab01_2-Debug-07076283e418a8b2b2e1.json",
+					"name" : "lab01_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab01_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab01_3-Debug-5d0559a20166668c2863.json",
+					"name" : "lab01_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab02_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab02_1-Debug-970913084254417ec526.json",
+					"name" : "lab02_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab02_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab02_2-Debug-2d8d2ef7e7acb7ee117a.json",
+					"name" : "lab02_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab02_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab02_3-Debug-8d577809c99129001fda.json",
+					"name" : "lab02_3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/SP_2023-24-Z/cmake-build-debug",
+		"source" : "D:/SP_2023-24-Z"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

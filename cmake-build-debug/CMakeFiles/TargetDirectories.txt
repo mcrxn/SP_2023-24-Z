@@ -1,3 +1,9 @@
 D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/SP_2023_24_Z.dir
+D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/lab01_1.dir
+D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/lab01_2.dir
+D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/lab01_3.dir
+D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/lab02_1.dir
+D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/lab02_2.dir
+D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/lab02_3.dir
 D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/rebuild_cache.dir
