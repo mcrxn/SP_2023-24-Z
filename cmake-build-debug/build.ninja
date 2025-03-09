@@ -403,6 +403,39 @@ build lab03_4.exe: CXX_EXECUTABLE_LINKER__lab03_4_Debug CMakeFiles/lab03_4.dir/L
   TARGET_IMPLIB = liblab03_4.dll.a
   TARGET_PDB = lab03_4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lab05_1
+
+
+#############################################
+# Order-only phony target for lab05_1
+
+build cmake_object_order_depends_target_lab05_1: phony || CMakeFiles/lab05_1.dir
+
+build CMakeFiles/lab05_1.dir/Lab05/lab05_1.cpp.obj: CXX_COMPILER__lab05_1_unscanned_Debug D$:/SP_2023-24-Z/Lab05/lab05_1.cpp || cmake_object_order_depends_target_lab05_1
+  DEP_FILE = CMakeFiles\lab05_1.dir\Lab05\lab05_1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab05_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab05_1.dir\Lab05
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab05_1
+
+
+#############################################
+# Link the executable lab05_1.exe
+
+build lab05_1.exe: CXX_EXECUTABLE_LINKER__lab05_1_Debug CMakeFiles/lab05_1.dir/Lab05/lab05_1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab05_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab05_1.exe
+  TARGET_IMPLIB = liblab05_1.dll.a
+  TARGET_PDB = lab05_1.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -451,6 +484,8 @@ build lab03_3: phony lab03_3.exe
 
 build lab03_4: phony lab03_4.exe
 
+build lab05_1: phony lab05_1.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -459,7 +494,7 @@ build lab03_4: phony lab03_4.exe
 #############################################
 # Folder: D:/SP_2023-24-Z/cmake-build-debug
 
-build all: phony SP_2023_24_Z.exe lab01_1.exe lab01_2.exe lab01_3.exe lab02_1.exe lab02_2.exe lab02_3.exe lab03_1.exe lab03_2.exe lab03_3.exe lab03_4.exe
+build all: phony SP_2023_24_Z.exe lab01_1.exe lab01_2.exe lab01_3.exe lab02_1.exe lab02_2.exe lab02_3.exe lab03_1.exe lab03_2.exe lab03_3.exe lab03_4.exe lab05_1.exe
 
 # =============================================================================
 # Built-in targets
