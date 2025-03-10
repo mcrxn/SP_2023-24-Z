@@ -404,37 +404,202 @@ build lab03_4.exe: CXX_EXECUTABLE_LINKER__lab03_4_Debug CMakeFiles/lab03_4.dir/L
   TARGET_PDB = lab03_4.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target lab05_1
+# Object build statements for EXECUTABLE target lab04_1
 
 
 #############################################
-# Order-only phony target for lab05_1
+# Order-only phony target for lab04_1
 
-build cmake_object_order_depends_target_lab05_1: phony || CMakeFiles/lab05_1.dir
+build cmake_object_order_depends_target_lab04_1: phony || CMakeFiles/lab04_1.dir
 
-build CMakeFiles/lab05_1.dir/Lab05/lab05_1.cpp.obj: CXX_COMPILER__lab05_1_unscanned_Debug D$:/SP_2023-24-Z/Lab05/lab05_1.cpp || cmake_object_order_depends_target_lab05_1
-  DEP_FILE = CMakeFiles\lab05_1.dir\Lab05\lab05_1.cpp.obj.d
+build CMakeFiles/lab04_1.dir/Lab04/lab04_1.cpp.obj: CXX_COMPILER__lab04_1_unscanned_Debug D$:/SP_2023-24-Z/Lab04/lab04_1.cpp || cmake_object_order_depends_target_lab04_1
+  DEP_FILE = CMakeFiles\lab04_1.dir\Lab04\lab04_1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\lab05_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\lab05_1.dir\Lab05
+  OBJECT_DIR = CMakeFiles\lab04_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab04_1.dir\Lab04
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target lab05_1
+# Link build statements for EXECUTABLE target lab04_1
 
 
 #############################################
-# Link the executable lab05_1.exe
+# Link the executable lab04_1.exe
 
-build lab05_1.exe: CXX_EXECUTABLE_LINKER__lab05_1_Debug CMakeFiles/lab05_1.dir/Lab05/lab05_1.cpp.obj
+build lab04_1.exe: CXX_EXECUTABLE_LINKER__lab04_1_Debug CMakeFiles/lab04_1.dir/Lab04/lab04_1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\lab05_1.dir
+  OBJECT_DIR = CMakeFiles\lab04_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = lab05_1.exe
-  TARGET_IMPLIB = liblab05_1.dll.a
-  TARGET_PDB = lab05_1.exe.dbg
+  TARGET_FILE = lab04_1.exe
+  TARGET_IMPLIB = liblab04_1.dll.a
+  TARGET_PDB = lab04_1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab04_2
+
+
+#############################################
+# Order-only phony target for lab04_2
+
+build cmake_object_order_depends_target_lab04_2: phony || CMakeFiles/lab04_2.dir
+
+build CMakeFiles/lab04_2.dir/Lab04/lab04_2.cpp.obj: CXX_COMPILER__lab04_2_unscanned_Debug D$:/SP_2023-24-Z/Lab04/lab04_2.cpp || cmake_object_order_depends_target_lab04_2
+  DEP_FILE = CMakeFiles\lab04_2.dir\Lab04\lab04_2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab04_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab04_2.dir\Lab04
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab04_2
+
+
+#############################################
+# Link the executable lab04_2.exe
+
+build lab04_2.exe: CXX_EXECUTABLE_LINKER__lab04_2_Debug CMakeFiles/lab04_2.dir/Lab04/lab04_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab04_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab04_2.exe
+  TARGET_IMPLIB = liblab04_2.dll.a
+  TARGET_PDB = lab04_2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab04_3
+
+
+#############################################
+# Order-only phony target for lab04_3
+
+build cmake_object_order_depends_target_lab04_3: phony || CMakeFiles/lab04_3.dir
+
+build CMakeFiles/lab04_3.dir/Lab04/lab04_3.cpp.obj: CXX_COMPILER__lab04_3_unscanned_Debug D$:/SP_2023-24-Z/Lab04/lab04_3.cpp || cmake_object_order_depends_target_lab04_3
+  DEP_FILE = CMakeFiles\lab04_3.dir\Lab04\lab04_3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab04_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab04_3.dir\Lab04
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab04_3
+
+
+#############################################
+# Link the executable lab04_3.exe
+
+build lab04_3.exe: CXX_EXECUTABLE_LINKER__lab04_3_Debug CMakeFiles/lab04_3.dir/Lab04/lab04_3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab04_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab04_3.exe
+  TARGET_IMPLIB = liblab04_3.dll.a
+  TARGET_PDB = lab04_3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab06_1
+
+
+#############################################
+# Order-only phony target for lab06_1
+
+build cmake_object_order_depends_target_lab06_1: phony || CMakeFiles/lab06_1.dir
+
+build CMakeFiles/lab06_1.dir/Lab06/lab06_1.cpp.obj: CXX_COMPILER__lab06_1_unscanned_Debug D$:/SP_2023-24-Z/Lab06/lab06_1.cpp || cmake_object_order_depends_target_lab06_1
+  DEP_FILE = CMakeFiles\lab06_1.dir\Lab06\lab06_1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab06_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab06_1.dir\Lab06
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab06_1
+
+
+#############################################
+# Link the executable lab06_1.exe
+
+build lab06_1.exe: CXX_EXECUTABLE_LINKER__lab06_1_Debug CMakeFiles/lab06_1.dir/Lab06/lab06_1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab06_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab06_1.exe
+  TARGET_IMPLIB = liblab06_1.dll.a
+  TARGET_PDB = lab06_1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab06_2
+
+
+#############################################
+# Order-only phony target for lab06_2
+
+build cmake_object_order_depends_target_lab06_2: phony || CMakeFiles/lab06_2.dir
+
+build CMakeFiles/lab06_2.dir/Lab06/lab06_2.cpp.obj: CXX_COMPILER__lab06_2_unscanned_Debug D$:/SP_2023-24-Z/Lab06/lab06_2.cpp || cmake_object_order_depends_target_lab06_2
+  DEP_FILE = CMakeFiles\lab06_2.dir\Lab06\lab06_2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab06_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab06_2.dir\Lab06
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab06_2
+
+
+#############################################
+# Link the executable lab06_2.exe
+
+build lab06_2.exe: CXX_EXECUTABLE_LINKER__lab06_2_Debug CMakeFiles/lab06_2.dir/Lab06/lab06_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab06_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab06_2.exe
+  TARGET_IMPLIB = liblab06_2.dll.a
+  TARGET_PDB = lab06_2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lab06_3
+
+
+#############################################
+# Order-only phony target for lab06_3
+
+build cmake_object_order_depends_target_lab06_3: phony || CMakeFiles/lab06_3.dir
+
+build CMakeFiles/lab06_3.dir/Lab06/lab06_3.cpp.obj: CXX_COMPILER__lab06_3_unscanned_Debug D$:/SP_2023-24-Z/Lab06/lab06_3.cpp || cmake_object_order_depends_target_lab06_3
+  DEP_FILE = CMakeFiles\lab06_3.dir\Lab06\lab06_3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab06_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab06_3.dir\Lab06
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab06_3
+
+
+#############################################
+# Link the executable lab06_3.exe
+
+build lab06_3.exe: CXX_EXECUTABLE_LINKER__lab06_3_Debug CMakeFiles/lab06_3.dir/Lab06/lab06_3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab06_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab06_3.exe
+  TARGET_IMPLIB = liblab06_3.dll.a
+  TARGET_PDB = lab06_3.exe.dbg
 
 
 #############################################
@@ -484,7 +649,17 @@ build lab03_3: phony lab03_3.exe
 
 build lab03_4: phony lab03_4.exe
 
-build lab05_1: phony lab05_1.exe
+build lab04_1: phony lab04_1.exe
+
+build lab04_2: phony lab04_2.exe
+
+build lab04_3: phony lab04_3.exe
+
+build lab06_1: phony lab06_1.exe
+
+build lab06_2: phony lab06_2.exe
+
+build lab06_3: phony lab06_3.exe
 
 # =============================================================================
 # Folder targets.
@@ -494,7 +669,7 @@ build lab05_1: phony lab05_1.exe
 #############################################
 # Folder: D:/SP_2023-24-Z/cmake-build-debug
 
-build all: phony SP_2023_24_Z.exe lab01_1.exe lab01_2.exe lab01_3.exe lab02_1.exe lab02_2.exe lab02_3.exe lab03_1.exe lab03_2.exe lab03_3.exe lab03_4.exe lab05_1.exe
+build all: phony SP_2023_24_Z.exe lab01_1.exe lab01_2.exe lab01_3.exe lab02_1.exe lab02_2.exe lab02_3.exe lab03_1.exe lab03_2.exe lab03_3.exe lab03_4.exe lab04_1.exe lab04_2.exe lab04_3.exe lab06_1.exe lab06_2.exe lab06_3.exe
 
 # =============================================================================
 # Built-in targets

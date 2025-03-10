@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lab05_1.exe"
+			"path" : "lab06_3.exe"
 		},
 		{
-			"path" : "lab05_1.pdb"
+			"path" : "lab06_3.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 22,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "lab05_1::@6890427a1f51a3e7e1df",
+	"id" : "lab06_3::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "lab05_1",
-	"nameOnDisk" : "lab05_1.exe",
+	"name" : "lab06_3",
+	"nameOnDisk" : "lab06_3.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Lab05/lab05_1.cpp",
+			"path" : "Lab06/lab06_3.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
