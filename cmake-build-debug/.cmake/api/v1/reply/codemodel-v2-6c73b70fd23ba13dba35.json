@@ -31,7 +31,9 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17,
+						18
 					]
 				}
 			],
@@ -62,7 +64,9 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17,
+						18
 					]
 				}
 			],
@@ -73,6 +77,20 @@
 					"id" : "SP_2023_24_Z::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-SP_2023_24_Z-Debug-a6d4278b59000b21bd28.json",
 					"name" : "SP_2023_24_Z",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fmt_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fmt_1-Debug-6c9224bb96c7f18b7847.json",
+					"name" : "fmt_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fmt_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fmt_2-Debug-394775a9ad4e5e96c1f1.json",
+					"name" : "fmt_2",
 					"projectIndex" : 0
 				},
 				{
