@@ -13,5 +13,22 @@
 using namespace std;
 
 int main(){
+    char c;
+    int sum = 0;
+    while(cin>>noskipws>>c){
+        if(c=='!') break;
+        int tmp = 0;
+        if(isdigit(c)){
+            tmp = tmp * 10 + c - '0';
+//            sum += tmp;
+            char tmpC;
+            cin >> tmpC;
+            if(isdigit(tmpC)){
+                tmp = tmp * 10 + tmpC - '0';
+            }
+            sum += tmp;
 
+        }
+    }
+    cout << sum << endl;
 }
