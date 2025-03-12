@@ -38,7 +38,10 @@
 						20,
 						21,
 						22,
-						23
+						23,
+						24,
+						25,
+						26
 					]
 				}
 			],
@@ -76,7 +79,10 @@
 						20,
 						21,
 						22,
-						23
+						23,
+						24,
+						25,
+						26
 					]
 				}
 			],
@@ -94,6 +100,13 @@
 					"id" : "fmt_1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-fmt_1-Debug-6c9224bb96c7f18b7847.json",
 					"name" : "fmt_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fmt_10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fmt_10-Debug-ef3cefb144f2754b861f.json",
+					"name" : "fmt_10",
 					"projectIndex" : 0
 				},
 				{
@@ -136,6 +149,20 @@
 					"id" : "fmt_7::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-fmt_7-Debug-af693a6ba12f9735e7a7.json",
 					"name" : "fmt_7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fmt_8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fmt_8-Debug-ee1b376c6aa99530d3f1.json",
+					"name" : "fmt_8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fmt_9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fmt_9-Debug-1347c0a063263691d28f.json",
+					"name" : "fmt_9",
 					"projectIndex" : 0
 				},
 				{
