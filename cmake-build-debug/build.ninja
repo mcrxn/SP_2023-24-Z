@@ -931,6 +931,105 @@ build fmt_10.exe: CXX_EXECUTABLE_LINKER__fmt_10_Debug CMakeFiles/fmt_10.dir/Firs
   TARGET_IMPLIB = libfmt_10.dll.a
   TARGET_PDB = fmt_10.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target fmt_11
+
+
+#############################################
+# Order-only phony target for fmt_11
+
+build cmake_object_order_depends_target_fmt_11: phony || CMakeFiles/fmt_11.dir
+
+build CMakeFiles/fmt_11.dir/FirstMidterm/fmt_11.cpp.obj: CXX_COMPILER__fmt_11_unscanned_Debug D$:/SP_2023-24-Z/FirstMidterm/fmt_11.cpp || cmake_object_order_depends_target_fmt_11
+  DEP_FILE = CMakeFiles\fmt_11.dir\FirstMidterm\fmt_11.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\fmt_11.dir
+  OBJECT_FILE_DIR = CMakeFiles\fmt_11.dir\FirstMidterm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fmt_11
+
+
+#############################################
+# Link the executable fmt_11.exe
+
+build fmt_11.exe: CXX_EXECUTABLE_LINKER__fmt_11_Debug CMakeFiles/fmt_11.dir/FirstMidterm/fmt_11.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fmt_11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fmt_11.exe
+  TARGET_IMPLIB = libfmt_11.dll.a
+  TARGET_PDB = fmt_11.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fmt_12
+
+
+#############################################
+# Order-only phony target for fmt_12
+
+build cmake_object_order_depends_target_fmt_12: phony || CMakeFiles/fmt_12.dir
+
+build CMakeFiles/fmt_12.dir/FirstMidterm/fmt_12.cpp.obj: CXX_COMPILER__fmt_12_unscanned_Debug D$:/SP_2023-24-Z/FirstMidterm/fmt_12.cpp || cmake_object_order_depends_target_fmt_12
+  DEP_FILE = CMakeFiles\fmt_12.dir\FirstMidterm\fmt_12.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\fmt_12.dir
+  OBJECT_FILE_DIR = CMakeFiles\fmt_12.dir\FirstMidterm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fmt_12
+
+
+#############################################
+# Link the executable fmt_12.exe
+
+build fmt_12.exe: CXX_EXECUTABLE_LINKER__fmt_12_Debug CMakeFiles/fmt_12.dir/FirstMidterm/fmt_12.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fmt_12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fmt_12.exe
+  TARGET_IMPLIB = libfmt_12.dll.a
+  TARGET_PDB = fmt_12.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fmt_13
+
+
+#############################################
+# Order-only phony target for fmt_13
+
+build cmake_object_order_depends_target_fmt_13: phony || CMakeFiles/fmt_13.dir
+
+build CMakeFiles/fmt_13.dir/FirstMidterm/fmt_13.cpp.obj: CXX_COMPILER__fmt_13_unscanned_Debug D$:/SP_2023-24-Z/FirstMidterm/fmt_13.cpp || cmake_object_order_depends_target_fmt_13
+  DEP_FILE = CMakeFiles\fmt_13.dir\FirstMidterm\fmt_13.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\fmt_13.dir
+  OBJECT_FILE_DIR = CMakeFiles\fmt_13.dir\FirstMidterm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fmt_13
+
+
+#############################################
+# Link the executable fmt_13.exe
+
+build fmt_13.exe: CXX_EXECUTABLE_LINKER__fmt_13_Debug CMakeFiles/fmt_13.dir/FirstMidterm/fmt_13.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fmt_13.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fmt_13.exe
+  TARGET_IMPLIB = libfmt_13.dll.a
+  TARGET_PDB = fmt_13.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -962,6 +1061,12 @@ build SP_2023_24_Z: phony SP_2023_24_Z.exe
 build fmt_1: phony fmt_1.exe
 
 build fmt_10: phony fmt_10.exe
+
+build fmt_11: phony fmt_11.exe
+
+build fmt_12: phony fmt_12.exe
+
+build fmt_13: phony fmt_13.exe
 
 build fmt_2: phony fmt_2.exe
 
@@ -1019,7 +1124,7 @@ build lab06_3: phony lab06_3.exe
 #############################################
 # Folder: D:/SP_2023-24-Z/cmake-build-debug
 
-build all: phony SP_2023_24_Z.exe lab01_1.exe lab01_2.exe lab01_3.exe lab02_1.exe lab02_2.exe lab02_3.exe lab03_1.exe lab03_2.exe lab03_3.exe lab03_4.exe lab04_1.exe lab04_2.exe lab04_3.exe lab06_1.exe lab06_2.exe lab06_3.exe fmt_1.exe fmt_2.exe fmt_3.exe fmt_4.exe fmt_5.exe fmt_6.exe fmt_7.exe fmt_8.exe fmt_9.exe fmt_10.exe
+build all: phony SP_2023_24_Z.exe lab01_1.exe lab01_2.exe lab01_3.exe lab02_1.exe lab02_2.exe lab02_3.exe lab03_1.exe lab03_2.exe lab03_3.exe lab03_4.exe lab04_1.exe lab04_2.exe lab04_3.exe lab06_1.exe lab06_2.exe lab06_3.exe fmt_1.exe fmt_2.exe fmt_3.exe fmt_4.exe fmt_5.exe fmt_6.exe fmt_7.exe fmt_8.exe fmt_9.exe fmt_10.exe fmt_11.exe fmt_12.exe fmt_13.exe
 
 # =============================================================================
 # Built-in targets
