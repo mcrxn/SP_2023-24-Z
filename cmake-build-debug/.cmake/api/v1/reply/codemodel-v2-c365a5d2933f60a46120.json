@@ -44,7 +44,10 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30,
+						31,
+						32
 					]
 				}
 			],
@@ -88,7 +91,10 @@
 						26,
 						27,
 						28,
-						29
+						29,
+						30,
+						31,
+						32
 					]
 				}
 			],
@@ -302,6 +308,27 @@
 					"id" : "lab06_3::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-lab06_3-Debug-9b7c9efa9533ca833084.json",
 					"name" : "lab06_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smt_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smt_01-Debug-e35709f505f937d40275.json",
+					"name" : "smt_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smt_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smt_02-Debug-e83a75c81502ec538d09.json",
+					"name" : "smt_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smt_03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smt_03-Debug-98b055c073e6ed2d48a7.json",
+					"name" : "smt_03",
 					"projectIndex" : 0
 				}
 			]

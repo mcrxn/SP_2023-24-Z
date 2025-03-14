@@ -1030,6 +1030,105 @@ build fmt_13.exe: CXX_EXECUTABLE_LINKER__fmt_13_Debug CMakeFiles/fmt_13.dir/Firs
   TARGET_IMPLIB = libfmt_13.dll.a
   TARGET_PDB = fmt_13.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target smt_01
+
+
+#############################################
+# Order-only phony target for smt_01
+
+build cmake_object_order_depends_target_smt_01: phony || CMakeFiles/smt_01.dir
+
+build CMakeFiles/smt_01.dir/SecondMidterm_FinalExam/smt_01.cpp.obj: CXX_COMPILER__smt_01_unscanned_Debug D$:/SP_2023-24-Z/SecondMidterm_FinalExam/smt_01.cpp || cmake_object_order_depends_target_smt_01
+  DEP_FILE = CMakeFiles\smt_01.dir\SecondMidterm_FinalExam\smt_01.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\smt_01.dir
+  OBJECT_FILE_DIR = CMakeFiles\smt_01.dir\SecondMidterm_FinalExam
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target smt_01
+
+
+#############################################
+# Link the executable smt_01.exe
+
+build smt_01.exe: CXX_EXECUTABLE_LINKER__smt_01_Debug CMakeFiles/smt_01.dir/SecondMidterm_FinalExam/smt_01.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\smt_01.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = smt_01.exe
+  TARGET_IMPLIB = libsmt_01.dll.a
+  TARGET_PDB = smt_01.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target smt_02
+
+
+#############################################
+# Order-only phony target for smt_02
+
+build cmake_object_order_depends_target_smt_02: phony || CMakeFiles/smt_02.dir
+
+build CMakeFiles/smt_02.dir/SecondMidterm_FinalExam/smt_02.cpp.obj: CXX_COMPILER__smt_02_unscanned_Debug D$:/SP_2023-24-Z/SecondMidterm_FinalExam/smt_02.cpp || cmake_object_order_depends_target_smt_02
+  DEP_FILE = CMakeFiles\smt_02.dir\SecondMidterm_FinalExam\smt_02.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\smt_02.dir
+  OBJECT_FILE_DIR = CMakeFiles\smt_02.dir\SecondMidterm_FinalExam
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target smt_02
+
+
+#############################################
+# Link the executable smt_02.exe
+
+build smt_02.exe: CXX_EXECUTABLE_LINKER__smt_02_Debug CMakeFiles/smt_02.dir/SecondMidterm_FinalExam/smt_02.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\smt_02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = smt_02.exe
+  TARGET_IMPLIB = libsmt_02.dll.a
+  TARGET_PDB = smt_02.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target smt_03
+
+
+#############################################
+# Order-only phony target for smt_03
+
+build cmake_object_order_depends_target_smt_03: phony || CMakeFiles/smt_03.dir
+
+build CMakeFiles/smt_03.dir/SecondMidterm_FinalExam/smt_03.cpp.obj: CXX_COMPILER__smt_03_unscanned_Debug D$:/SP_2023-24-Z/SecondMidterm_FinalExam/smt_03.cpp || cmake_object_order_depends_target_smt_03
+  DEP_FILE = CMakeFiles\smt_03.dir\SecondMidterm_FinalExam\smt_03.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\smt_03.dir
+  OBJECT_FILE_DIR = CMakeFiles\smt_03.dir\SecondMidterm_FinalExam
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target smt_03
+
+
+#############################################
+# Link the executable smt_03.exe
+
+build smt_03.exe: CXX_EXECUTABLE_LINKER__smt_03_Debug CMakeFiles/smt_03.dir/SecondMidterm_FinalExam/smt_03.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\smt_03.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = smt_03.exe
+  TARGET_IMPLIB = libsmt_03.dll.a
+  TARGET_PDB = smt_03.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1116,6 +1215,12 @@ build lab06_2: phony lab06_2.exe
 
 build lab06_3: phony lab06_3.exe
 
+build smt_01: phony smt_01.exe
+
+build smt_02: phony smt_02.exe
+
+build smt_03: phony smt_03.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -1124,7 +1229,7 @@ build lab06_3: phony lab06_3.exe
 #############################################
 # Folder: D:/SP_2023-24-Z/cmake-build-debug
 
-build all: phony SP_2023_24_Z.exe lab01_1.exe lab01_2.exe lab01_3.exe lab02_1.exe lab02_2.exe lab02_3.exe lab03_1.exe lab03_2.exe lab03_3.exe lab03_4.exe lab04_1.exe lab04_2.exe lab04_3.exe lab06_1.exe lab06_2.exe lab06_3.exe fmt_1.exe fmt_2.exe fmt_3.exe fmt_4.exe fmt_5.exe fmt_6.exe fmt_7.exe fmt_8.exe fmt_9.exe fmt_10.exe fmt_11.exe fmt_12.exe fmt_13.exe
+build all: phony SP_2023_24_Z.exe lab01_1.exe lab01_2.exe lab01_3.exe lab02_1.exe lab02_2.exe lab02_3.exe lab03_1.exe lab03_2.exe lab03_3.exe lab03_4.exe lab04_1.exe lab04_2.exe lab04_3.exe lab06_1.exe lab06_2.exe lab06_3.exe fmt_1.exe fmt_2.exe fmt_3.exe fmt_4.exe fmt_5.exe fmt_6.exe fmt_7.exe fmt_8.exe fmt_9.exe fmt_10.exe fmt_11.exe fmt_12.exe fmt_13.exe smt_01.exe smt_02.exe smt_03.exe
 
 # =============================================================================
 # Built-in targets
