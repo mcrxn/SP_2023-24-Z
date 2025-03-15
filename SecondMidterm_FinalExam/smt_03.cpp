@@ -21,6 +21,23 @@
 using namespace std;
  
 
-int main(){
+int sum_pos(const int * arr, int ind, int n){
+    int res = 0;
 
+    for (int i = ind; i < n; i++) {
+        res += *(arr + i);
+    }
+
+    return res;
+}
+
+int main(){
+    int n, ind;
+    cin >> n;
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+    cin >> ind;
+    cout << sum_pos(arr, ind, n) << endl;
 }

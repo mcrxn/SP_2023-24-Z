@@ -31,5 +31,9 @@ D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/fmt_13.dir
 D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/smt_01.dir
 D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/smt_02.dir
 D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/smt_03.dir
+D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/smt_04.dir
+D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/smt_05.dir
+D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/smt_06.dir
+D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/smt_07.dir
 D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/SP_2023-24-Z/cmake-build-debug/CMakeFiles/rebuild_cache.dir
